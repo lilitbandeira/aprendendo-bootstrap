@@ -1,0 +1,86 @@
+:root {
+  --bg-grad1: linear-gradient(0.25turn, #BB8FCE 60%, #C39BD3 , #D7BDE2);
+  --txt-dark: #1B2631;
+  --txt-light: #D5D8DC;
+  --bg-grad2: linear-gradient(0.25turn, #6C3483 60%, #6C3483 , #7D3C98);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap');
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: var(--bg-grad1);
+  min-height: 100vh;
+}
+
+.navbar {
+  background-image: var(--bg-grad2);
+  padding-left: 2vw;
+  position: fixed;
+  width: 100%;
+}
+
+.quem-sou {
+    color: var(--txt-dark);
+    font-size: 2rem;
+}
+
+.quem-sou h3 {
+  font-size: 2rem;
+}
+
+.quem-sou h5 {
+  text-align: justify;
+  padding: 10vh 10vw 0 10vw;
+  font-size: 1.1rem;
+}
+
+.img-quem-sou {
+  border: solid 1.5px var(--txt-light);
+}
+
+.margin {
+  padding: 8vh;
+}
+
+.espacamento {
+  padding: 5vh 0;
+}
+
+.footer-format {
+  background-image: var(--bg-grad2);
+  color: var(--txt-light);
+  padding: 2vh 0;
+}
+
+.text-footer {
+  opacity: 0.8;
+}
+
+.text-apoie {
+  font-size: 1.1rem;
+  background-image: var(--bg-grad2);
+  color: var(--txt-light);
+  border-radius: 10px;
+  padding: 1vh 0;
+}
+
+.icon-format {
+  color: white;
+  margin-right: 1vw;
+}
+
+.link-format {
+  text-decoration: none;
+}
+
+.img-apoie {
+  padding-top: 1.5vh;
+}
