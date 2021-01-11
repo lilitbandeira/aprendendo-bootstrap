@@ -5,16 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Praticando bootstrap</title>
   <link rel="icon" type='image/png' href="img/bootstrap-icons.png">
-  <link rel="stylesheet" type='text/css' href="bootstrap/css/bootstrap.min.css"> <!-- importando a página de estilo do bootstrap que usaremos, nesse caso será somente a bootstrap.min.css -->
+  <link rel="stylesheet" type='text/css' href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- a utilização do bootstrap se dá através de classes que já estão formatadas na folha de estilo importada e já nos oferece os elementos semi-prontos, fazemos nossas intervenções através da folha de estilo que criamos, nesse caso style.css  -->
   <nav class='navbar navbar-expand-lg navbar-dark'> 
     <a href="#" class="navbar-brand">
       <img src="img/bootstrap-icons.png" width='50' alt="logo do bootstrap">
     </a>
-    <div class="collapse navbar-collapse"> <!-- Collapse é utilizado para alternar a visibilidade de um conteúdo através de classes/plug-ins de java script-->
+    <div class="collapse navbar-collapse">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a href="#quemsou" class="nav-link">Quem sou</a>
@@ -29,18 +28,18 @@
     </div>
   </nav>  
   <section id='quemsou'>
-    <div class="container-fluid quem-sou text-center margin"> <!-- a utilização da class container não é indicada nesse caso pois a class possui uma margem padrão pra esquerda que limita o uso de backgrounds, por exemplo, por isso nesse caso usaremos container-fluid - As classes container são essenciais na utlização do bootstrap pois permitem criar estilo pra vários elementos contidos numa div de uma vez-->
+    <div class="container-fluid quem-sou text-center margin">
       <h3 class="espacamento"><b>Quem sou?</b></h3>
-      <img src="img/pg1.jpg" class='rounded-circle img-quem-sou' alt="foto frontal do rosto da lilit, ao fundo ambiente aberto a noite"> <!-- classe bootstrap para deixar as bordar da imagem em circulo, retirado do código fonte do componente bootstrap, aberto no navegador -->
+      <img src="img/pg1.jpg" class='rounded-circle img-quem-sou' alt="foto frontal do rosto da lilit, ao fundo ambiente aberto a noite">
       <h5 class="espacamento">Me chamo Lilit, sou paraibana resiente no Recife desde 2017, onde curso a graduação em Cinema e Audiovisual pela UFPE, desde Setembro de 2020 quando comecei o curso de Desenvolvimento Web Front-end no programa Trans.forma da Rede Cidadã em parceria com o Porto Digital, que finalizei no início de Dezembro de 2020, tenho me dedicado aos estudos de HTML, CSS e JV, além de frameworks e bibliotecas como ReactJs, Bootstrap, jQuery e outras tecnologias necessárias para a profissão de dev front-end, em breve pretendo estudar outras linguagens e ferramentas e expandir minhas habilidades para me tornar full stack, a linguagem que tenho mais interesse de aprender em breve é o Python, estu bastante motivada e me dedicando a cursos na DIO e rocketseat.</h5>
     </div>
   </section>
   <section id='redes'>
     <div class="container-fluid text-center margin quem-sou rede-s">
       <h3 class="espacamento"><b>Acompanhe meu progresso</b></h3>
-      <div class="container"> <!-- usando essa série de divs: div.container > div.row > div.col-size-numerodepartes (ex.: col-md-4) para criar uma divisão de itens em colunas, o limite do bootstrap são 12 colunas -->
+      <div class="container"> 
         <div class="row">
-          <div class="col-lg-4"> <!-- o md significa médio, lg large, sm small e xs x-small, usados para dispositivos de diversos tamanhos -->
+          <div class="col-lg-4"> 
             <a target='_blank' href="https://github.com/lilitbandeira/">
               <img src="img/github-icons.png" height='40%' alt="logo do github"></a>
           </div>
